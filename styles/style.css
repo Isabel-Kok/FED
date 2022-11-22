@@ -32,3 +32,24 @@ button, summary {
 
 /* jouw code */
 
+header img :first-of-type{
+    float: left;
+  	width: 4em;
+  	padding: 1px;
+    transition: 1s;
+}
+
+header {
+	float: right;
+    transition: 1s;
+}
+
+header img:hover {
+    opacity: 0.5;
+}
+
+
+main  {
+    display: flex;
+    }
+
