@@ -34,7 +34,6 @@ button, summary {
 
 header a {
 	float: left;
-
 }
 
 header img {
@@ -47,6 +46,7 @@ header img:hover {
 }
 
 main h1 {
+	padding-top: 3em;
 	font-weight: 4em;
     color: #111;
 	align-items: left;
