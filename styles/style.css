@@ -32,13 +32,22 @@ button, summary {
 
 /* jouw code */
 
+main img{
+	width: 22em;
+	height: 12em;
+	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+}
+
+
 header a {
 	float: left;
 }
 
 header img {
 	float: right;
-    transition: 1s;
+    transition: 1s;display: block;
 }
 
 header img:hover {
@@ -46,9 +55,21 @@ header img:hover {
 }
 
 main h1 {
-	padding-top: 3em;
-	font-weight: 4em;
     color: #111;
-	align-items: left;
+	text-align: center;
+	text-transform: uppercase;
+	font-family:arial ;
+	letter-spacing: 0,08em;
+	font-size: x-large;
 
+}
+
+main h3{
+	text-align: center;
+	font-size: x-small;
+}
+
+main p{
+	text-align: center;
+	font-size: small;
 }
