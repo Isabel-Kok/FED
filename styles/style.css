@@ -91,7 +91,7 @@ main p {
 	font-family: 'Times New Roman', Times, serif;
 }
 
-main button{
+main button {
 	background-color:black;
 	border: none;
 	color: white;
@@ -104,6 +104,25 @@ main button{
 	top: 68em;
 }
 
+main button:nth-of-type(2) {
+	background-color: grey;
+	color: #000;
+	border: none;
+	padding: 1em 1em 1em 1em;
+	position: absolute;
+	left: 40em;
+	top: 73em;
+}
+
+main button:nth-of-type(3) {
+	background-color: lightgrey;
+	border: none;
+	padding: 1em 1em 1em 1em;
+	position: absolute;
+	left: 36em;
+	top: 73em;
+	
+}
 
 ul {
 	display:flex;
