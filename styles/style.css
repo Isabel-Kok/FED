@@ -76,7 +76,9 @@ main img {
 main h2{
 	text-align:left;
 	font-size:large;
-	padding-top: 3em;
+	padding-top: 4em;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: lighter;
 }
 
 main h3 {
@@ -111,7 +113,8 @@ main button:nth-of-type(2) {
 	padding: 1em 1em 1em 1em;
 	position: absolute;
 	left: 40em;
-	top: 73em;
+	top: 75em;
+	opacity: 0.5;
 }
 
 main button:nth-of-type(3) {
@@ -120,9 +123,57 @@ main button:nth-of-type(3) {
 	padding: 1em 1em 1em 1em;
 	position: absolute;
 	left: 36em;
-	top: 73em;
-	
+	top: 75em;
 }
+
+main button:nth-of-type(6) {
+	background-color: grey;
+	color: #000;
+	border: none;
+	padding: 1em 1em 1em 1em;
+	position: absolute;
+	left: 40em;
+	top: 151em;
+	opacity: 0.5;
+}
+
+main button:nth-of-type(7) {
+	background-color: lightgrey;
+	border: none;
+	padding: 1em 1em 1em 1em;
+	position: absolute;
+	left: 36em;
+	top: 151em;
+}
+
+main button:nth-of-type(8) {
+	background-color: black;
+	border: none;
+	padding: 1em 1.5em 1em 1.5em;
+	position: relative;
+	left: 19em;
+	top: 0em;
+}
+
+main button:nth-of-type(4) {
+	background-color: black;
+	border: none;
+	padding: 1em 1em 1em 1em;
+	position: absolute;
+	left: 1em;
+	top: 144em;
+}
+
+main button:nth-of-type(5) {
+	background-color: black;
+	border: none;
+	padding: 1em 1em 1em 1em;
+	position: absolute;
+	left: 24em;
+	top: 144em;
+}
+
+
 
 ul {
 	display:flex;
@@ -143,3 +194,44 @@ ul {
 	padding: .5em;
 	padding-left: 0;
   }
+  main img:nth-of-type(3){
+	width: 22em;
+	height: 9em;
+	padding-left: 0;
+  }
+  
+  main img:nth-of-type(5){
+	width: 22em;
+	height: 9em;
+	padding-left: 0;
+  }
+  main img:nth-of-type(6){
+	width: 22em;
+	height: 6em;
+	padding-left: 0;
+  }
+
+
+  main h2:nth-of-type(3){
+	padding-left: .4em;
+	font-weight: lighter;
+	font-size: .9em;
+	position: absolute;
+	top: 73.5em;
+  }
+
+  main h2:nth-of-type(4){
+	padding-left: .4em;
+	font-weight: lighter;
+	font-size: .9em;
+	position: absolute;
+	top: 73.5em;
+	left: 13em;
+  }
+  
+
+ main h3:nth-of-type(2) {
+	font-size: x-large;
+	font-family: Arial, Helvetica, sans-serif;
+	text-transform: uppercase;
+ }
