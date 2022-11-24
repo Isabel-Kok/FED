@@ -122,4 +122,5 @@ ul {
   ul li img{
 	max-width: 12em;
 	padding: .5em;
+	padding-left: 0;
   }
