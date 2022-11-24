@@ -73,7 +73,11 @@ main img {
   	margin-left: auto;
   	margin-right: auto;
 }
-
+main h2{
+	text-align:left;
+	font-size:large;
+	padding-top: 3em;
+}
 
 main h3 {
 	text-align: center;
@@ -112,6 +116,7 @@ ul {
 	align-items:flex-start;
 	display:flex;
 	flex-direction:column-reverse;
+	font-family: 'Times New Roman', Times, serif;	
   }
 
   ul li img{
