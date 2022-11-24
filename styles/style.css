@@ -32,26 +32,22 @@ button, summary {
 
 /* jouw code */
 
-main img{
-	width: 22em;
-	height: 12em;
-	display: block;
-  	margin-left: auto;
-  	margin-right: auto;
-}
-
-
 header a {
 	float: left;
 }
 
-header img {
+header img:first-of-type {
 	float: right;
     transition: 1s;display: block;
 }
 
+header img{
+	float: right;
+}
+
 header img:hover {
     opacity: 0.5;
+	
 }
 
 main h1 {
@@ -62,14 +58,63 @@ main h1 {
 	letter-spacing: 0,08em;
 	font-size: x-large;
 
+
 }
 
-main h3{
+main img:nth-of-type(2){
+	width: 6em;
+	height: 6em;
+}
+
+main img {
+	width: 22em;
+	height: 12em;
+	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+}
+
+
+main h3 {
 	text-align: center;
 	font-size: x-small;
+	
 }
 
-main p{
+main p {
 	text-align: center;
-	font-size: small;
+	font-size: x-small;
+	font-family: 'Times New Roman', Times, serif;
 }
+
+main button{
+	background-color:black;
+	border: none;
+	color: white;
+	padding: 6px 16px;
+	text-align: center;
+	font-size: 8px;
+	border-radius: 25px;
+	position: absolute;
+	left: 18em;
+	top: 68em;
+}
+
+
+ul {
+	display:flex;
+	overflow-x:auto;
+	-webkit-overflow-scrolling: touch;
+	padding-left: 0;
+  }
+  
+  ul li {
+	align-items:flex-start;
+	display:flex;
+	flex-direction:column-reverse;
+  }
+
+  ul li img{
+	max-width: 12em;
+	padding: .5em;
+  }
