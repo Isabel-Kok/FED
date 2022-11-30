@@ -285,8 +285,6 @@ main img:nth-of-type(2){
  
 input, textarea {
 	padding:5px; 
-	border:2px solid rgb(255, 255, 21); 
-	border-radius: 5px;
 	width:250px;
 	font:12px Verdana;
 	margin-bottom:10px;
@@ -294,17 +292,7 @@ input, textarea {
 
 input[type=submit] {
 	padding:5px 15px; 
-	background:rgb(255, 255, 21); 
-	border:0 none;
-	cursor:pointer;
-	width:100px;
-	border-radius: 5px; 
-
+	background:black;
+	color: white;
 }
 	
-input[type=submit]:hover{
-	padding:5px 15px; 
-    background: rgb(255, 255, 21);
-    transform: scale(1.5);
-    transition: all, 350ms ease; 
-}
