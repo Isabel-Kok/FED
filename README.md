@@ -53,20 +53,21 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 ## Toegankelijkheidstest 1/2 (week 1)
 
 <details>
-  <summary>uitwerken na test in 1e werkgroep</summary>
+  <summary>Hier de uitwerken na test in 1e werkgroep</summary>
 
   ### Bevindingen
   Lijst met je bevindingen die in de test naar voren kwamen:
-  -de site van nike nu is niet goed geschrikt
-  -als je over een product hovert dan verteld hij niet wat het is of waar je muis zich bevind
-  -je weet niet waar je bent op een pagina
-  -je kan niet zien waar je je bevind
+  - de site van nike nu is niet goed geschikt voor screenreader
+  - als je over een product hovert dan verteld hij niet wat het is of waar je muis zich bevind
+  - je weet niet waar je bent op een pagina
+  - je kan niet zien waar je je bevind
+  - 
 
   #### Screenreader
-  Hier korte omschrijving (met indien nodig afbeeldingen)
+  Hier korte omschrijving 
   -de screenreader leest niet veel voor van de huidige website
 
-  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
+  Hier een omschrijving van hoe het opgelost kan worden 
   -bij elk product of linkje/ button een alt tekst toevoegen zodat mensen de site wel kunnen gebruiken.
 
   #### Muis en Toetsenbord 
@@ -74,7 +75,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   -de site beschrijft wel goed welke knoppen je moet gebruiken op je toetsenbord om terug te gaan
   -als je met je muis over het menu hovert dan zegt hij wel wat het is maar hij leest dan niet alle opties in het menu
 
-  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
+  Hier een omschrijving van hoe het opgelost kan worden 
   -zelfde als hier voor voor alles een alt tekst toevoegen
 
   #### Motoriek (shocks, elastiekjes)
