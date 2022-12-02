@@ -84,8 +84,9 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 
   #### Visueel (brillen, contrast, kleurenblind, dark/light). 
-  Hier korte omschrijving (met indien nodig afbeeldingen)
-  -er worden niet veel kleuren gebruikt de meeste kleur die wordt gebruikt is zwart en wit
+  
+  - er worden niet veel kleuren gebruikt de meeste kleur die wordt gebruikt is zwart en wit
+  - spraak wordt niet goed gebruikt, als mensen blind zijn is het lastig om deze site te gebruiken
 
   Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
 
@@ -99,13 +100,9 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken na afloop 2e werkgroep</summary>
 
   ### de hele pagina: 
-  <img src="readme-images/breakdown-sketch.jpg" width="375px" alt="breakdown van de hele pagina">
+  <img src="readme-images/breakdown.jpg" width="375px" alt="breakdown van de hele pagina">
 
-  ### dynamisch deel (bijv menu): 
-  <img src="readme-images/breakdown-sketch2.jpg" width="375px" alt="breakdown van een dynamisch deel">
 
-  ### wellicht nog een dynamisch deel (bijv filter): 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van nog een dynamisch deel">
 
 </details>
 
@@ -135,10 +132,9 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
+  - nog goed kijken naar alle punten van toegankelijkheid
+  - tweede pagina maken
+  - video er in zetten 
 
 </details>
 
@@ -152,7 +148,9 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor 2e voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+  - het was lastig om de video er in te krijgen
+  - had ook een fout gemaakt was sections vergeten
+  - dus kon alles weer opnieuw positioneren maar dat is gelukt
 
 
   ### Agenda voor meeting
