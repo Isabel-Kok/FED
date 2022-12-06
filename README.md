@@ -65,22 +65,22 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   #### Screenreader
   Hier korte omschrijving 
-  -de screenreader leest niet veel voor van de huidige website
+  - de screenreader leest niet veel voor van de huidige website
 
   Hier een omschrijving van hoe het opgelost kan worden 
-  -bij elk product of linkje/ button een alt tekst toevoegen zodat mensen de site wel kunnen gebruiken.
+  - bij elk product of linkje/ button een alt tekst toevoegen zodat mensen de site wel kunnen gebruiken.
 
   #### Muis en Toetsenbord 
   Hier korte omschrijving (met indien nodig afbeeldingen)
-  -de site beschrijft wel goed welke knoppen je moet gebruiken op je toetsenbord om terug te gaan
-  -als je met je muis over het menu hovert dan zegt hij wel wat het is maar hij leest dan niet alle opties in het menu
+  - de site beschrijft wel goed welke knoppen je moet gebruiken op je toetsenbord om terug te gaan
+  - als je met je muis over het menu hovert dan zegt hij wel wat het is maar hij leest dan niet alle opties in het menu
 
   Hier een omschrijving van hoe het opgelost kan worden 
-  -zelfde als hier voor voor alles een alt tekst toevoegen
+  - zelfde als hier voor voor alles een alt tekst toevoegen
 
   #### Motoriek (shocks, elastiekjes)
   Hier korte omschrijving (met indien nodig afbeeldingen)
-
+  - we hebben geen shocks/ elastiekjes gebruikt
   Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
 
 
@@ -90,6 +90,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   - spraak wordt niet goed gebruikt, als mensen blind zijn is het lastig om deze site te gebruiken
 
   Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
+  - Zorgen dat er altijd een goed contrast is op de website zodat mensen met kleurenblindheid ook de site makkelijk kunen gebruiken
 
 </details>
 
