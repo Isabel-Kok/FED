@@ -292,7 +292,7 @@ main img:nth-of-type(2){
 }
 
 .arrow1 {
-    top: 30em !important;
+    top: 28em !important;
 }
 
 .arrow2 {
@@ -301,7 +301,7 @@ main img:nth-of-type(2){
     padding: 0.5em 0.5em 0.5em 0.5em !important;
     position: absolute !important;
     left: 25em !important;
-    top: 52em !important;
+    top: 50em !important;
 	font-size: 13.3px !important;
 	color: black !important;
 }
@@ -312,7 +312,7 @@ main img:nth-of-type(2){
     padding: 0.5em 0.5em 0.5em 0.5em !important;
     position: absolute !important;
     left: 23em !important;
-    top: 52em !important;
+    top: 50em !important;
     border-radius: 25px !important;
     opacity: 0.5 !important;
 	font-size: 13.3px !important;
