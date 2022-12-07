@@ -339,6 +339,10 @@ main img:nth-of-type(2){
 	color: black !important;
 }
 
+.nieuwste {
+	padding-top: 0 !important;
+}
+
 
 /**********/
 /* Footer */
