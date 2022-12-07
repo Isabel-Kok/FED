@@ -99,7 +99,7 @@ main section:nth-of-type(1) button{
 	border-radius: 25px;
 	position: absolute;
 	left: 18em;
-	top: 80em;
+	top: 63em;
 }
 
 main section:nth-of-type(2) button:nth-of-type(1) {
@@ -287,8 +287,8 @@ main img:nth-of-type(2){
 }
  
 .button1 {
-	left: 18em;
-    top: 43em;
+	left: 18em !important;
+    top: 43em !important;
 }
 
 .arrow1 {
