@@ -99,7 +99,7 @@ main section:nth-of-type(1) button{
 	border-radius: 25px;
 	position: absolute;
 	left: 18em;
-	top: 63em;
+	top: 80em;
 }
 
 main section:nth-of-type(2) button:nth-of-type(1) {
@@ -281,8 +281,9 @@ main img:nth-of-type(2){
  }
  
 .imghead {
-	height: 13em;
-	width: 22.5em;
+	height: 13em !important;
+	width: 22.5em !important;
+	margin-left: 0 !important;
 }
  
 .button1 {
