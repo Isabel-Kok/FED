@@ -289,7 +289,14 @@ main img:nth-of-type(2){
     top: 30em !important;
 }
 
-
+.arrow2 {
+    background-color: lightgrey !important;
+    border: none !important;
+    padding: 0.5em 0.5em 0.5em 0.5em !important;
+    position: absolute !important;
+    left: 25em !important;
+    top: 52em !important;
+}
 
 
 
