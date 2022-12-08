@@ -15,12 +15,9 @@ button, summary {
 /*********************/
 :root {
 	/* startje */
-	--color-text:#fff;
-	--color-background:#111;
+	--color-text:#111;
+	--color-background:#fff;
 }
-
-
-
 
 
 /**********/
@@ -29,11 +26,13 @@ button, summary {
 
 header a {
 	float: left;
+
 }
 
 header img:first-of-type {
 	float: right;
     transition: 1s;display: block;
+
 }
 
 header img{
@@ -41,10 +40,13 @@ header img{
 	width: 2em;
 	height: 2em;
 	margin-bottom: 1em;
+
 }
 
 header img:hover {
     opacity: 0.5;
+	
+
 }
  /**********/
   /* Main */
@@ -372,6 +374,31 @@ main section:nth-of-type(9) h4 {
 	font-weight: lighter;
  }
 
+
+ input, textarea {
+	padding:5px; 
+	border: solid rgb(0, 0, 0); 
+	width:150px;
+	font:12px arial;
+	margin-bottom:10px;
+	margin-top: 10px;
+	margin-left: 1em;
+}
+
+input[type=submit] {
+	padding:5px 15px; 
+	background:rgb(255, 255, 255); 
+	cursor:pointer;
+	width:100px;
+	border-radius: 5px; 
+
+}
+	
+input[type=submit]:hover{
+	padding:5px 15px; 
+    background: rgb(86, 204, 255);
+    transition: all, 350ms ease; 
+}
 
 
 	
