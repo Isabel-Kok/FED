@@ -15,14 +15,23 @@ button, summary {
 /*********************/
 :root {
 	/* startje */
-	--color-text:#111;
-	--color-background:#fff;
+	--color-text:rgb(0, 0, 0);
+	--color-background:rgb(255, 255, 255);
 }
-
+@media (prefers-color-scheme: dark) {
+	:root {
+		--color-text:rgb(255, 255, 255);
+		--color-background:rgb(0, 0, 0);
+	}
+  }
 
 /**********/
 /* Header */
 /**********/
+
+header{
+	overflow: hidden;
+}
 
 header a {
 	float: left;
@@ -58,7 +67,7 @@ video {
 }
 
 main h1 {
-	color: #111;
+	color: var(--color-text);
 	text-align: center;
 	text-transform: uppercase;
 	font-family:arial ;
@@ -92,7 +101,10 @@ main p {
 	font-size: x-small;
 	font-family: 'Times New Roman', Times, serif;
 }
-
+ul p {
+	font-family: Arial, Helvetica, sans-serif;
+	
+}
 main section:nth-of-type(1) button{
 	background-color:black;
 	border: none;
@@ -284,72 +296,111 @@ main img:nth-of-type(2){
 	font-weight: lighter;
  }
  
-.imghead {
-	height: 13em !important;
-	width: 22.5em !important;
-	margin-left: 0 !important;
+ main section:nth-of-type(1) img.imghead {
+	height: 13em ;
+	width: 22.5em ;
+	margin-left: 0 ;
 }
  
-.button1 {
-	left: 18em !important;
-    top: 43em !important;
+main section:nth-of-type(1) button.button1 {
+	left: 18em ;
+    top: 43em ;
 }
 
-.arrow1 {
-    top: 28em !important;
+main section:nth-of-type(2) button:nth-of-type(1).arrow1 {
+    top: 28em ;
 }
 
-.arrow2 {
-    background-color: lightgrey !important;
-    border: none !important;
-    padding: 0.5em 0.5em 0.5em 0.5em !important;
-    position: absolute !important;
-    left: 25em !important;
-    top: 50em !important;
-	font-size: 13.3px !important;
-	color: black !important;
+main section:nth-of-type(2) button:nth-of-type(2).arrow1 {
+    top: 28em ;
 }
 
-.arrow3 {
-    background-color: lightgrey !important;
-    border: none !important;
-    padding: 0.5em 0.5em 0.5em 0.5em !important;
-    position: absolute !important;
-    left: 23em !important;
-    top: 50em !important;
-    border-radius: 25px !important;
-    opacity: 0.5 !important;
-	font-size: 13.3px !important;
-	color: black !important;
+main section:nth-of-type(3) button:nth-of-type(1).arrow2 {
+    background-color: lightgrey ;
+    border: none ;
+    padding: 0.5em 0.5em 0.5em 0.5em ;
+    position: absolute ;
+    left: 25em ;
+    top: 50em;
+	font-size: 13.3px ;
+	color: black ;
 }
 
-.arrow4 {
-    background-color: lightgrey !important;
-    border: none !important;
-    padding: 0.5em 0.5em 0.5em 0.5em !important;
-    position: absolute !important;
-    left: 25em !important;
-    top: 82em !important;
-    border-radius: 25px !important;
-	font-size: 13.3px !important;
-	color: black !important;
+main section:nth-of-type(3) button:nth-of-type(2).arrow3 {
+    background-color: lightgrey ;
+    border: none ;
+    padding: 0.5em 0.5em 0.5em 0.5em ;
+    position: absolute ;
+    left: 23em ;
+    top: 50em ;
+    border-radius: 25px ;
+    opacity: 0.5 ;
+	font-size: 13.3px ;
+	color: black ;
 }
 
-.arrow5 {
-    background-color: lightgrey !important;
-    border: none !important;
-    padding: 0.5em 0.5em 0.5em 0.5em !important;
-    position: absolute !important;
-    left: 23em !important;
-    top: 82em !important;
-    border-radius: 25px !important;
-    opacity: 0.5 !important;
-	font-size: 13.3px !important;
-	color: black !important;
+main section:nth-of-type(5) button.arrow4 {
+    background-color: lightgrey ;
+    border: none ;
+    padding: 0.5em 0.5em 0.5em 0.5em ;
+    position: absolute ;
+    left: 25em ;
+    top: 82em ;
+    border-radius: 25px ;
+	font-size: 13.3px ;
+	color: black ;
+}
+
+main section:nth-of-type(5) button.arrow5 {
+    background-color: lightgrey ;
+    border: none ;
+    padding: 0.5em 0.5em 0.5em 0.5em ;
+    position: absolute ;
+    left: 23em ;
+    top: 82em ;
+    border-radius: 25px ;
+    opacity: 0.5 ;
+	font-size: 13.3px ;
+	color: black ;
 }
 
 .nieuwste {
 	padding-top: 0 !important;
+}
+
+header nav ul {
+	z-index: -666;
+	position: fixed;
+	top: 0;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	width: 100vw;
+	height: 100vh;
+	left: 0;
+	margin: 0px;
+	background-color: var(--background-color-header);
+	padding: 0;
+	transform: translateX(-100%);
+	transition: transform 1s;
+}
+
+header nav ul li {
+	list-style-type: none;
+	text-align: center;
+	padding: 10px;
+	font-size: 23px;
+}
+
+header nav ul li a{
+	text-decoration: none;
+	color: var(--color-text);
+}
+
+header nav.menu-open ul {
+	transform: translatex(0%);
+	transition-duration: 1s;
 }
 
 
@@ -374,31 +425,28 @@ main section:nth-of-type(9) h4 {
 	font-weight: lighter;
  }
 
+.hamburger {
+	background-color: white;
+	text-align: left;
+	margin: 0;
+	position:fixed;
+	height: 100%;
+	width: 50%;
+	right: -100vw;
+	z-index: 10;
+	transition: 0.25s ease-out;
 
- input, textarea {
-	padding:5px; 
-	border: solid rgb(0, 0, 0); 
-	width:150px;
-	font:12px arial;
-	margin-bottom:10px;
-	margin-top: 10px;
+}
+.hamburger img:nth-of-type(2) {
+	height: auto;
+	width: 10em;
+	margin-right: 2em;
+}
+.hamburger h2{
 	margin-left: 1em;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: 100;
 }
-
-input[type=submit] {
-	padding:5px 15px; 
-	background:rgb(255, 255, 255); 
-	cursor:pointer;
-	width:100px;
-	border-radius: 5px; 
-
+.hamburger.open{
+	right: 0;
 }
-	
-input[type=submit]:hover{
-	padding:5px 15px; 
-    background: rgb(86, 204, 255);
-    transition: all, 350ms ease; 
-}
-
-
-	
