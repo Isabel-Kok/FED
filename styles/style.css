@@ -16,15 +16,23 @@ button, summary {
 :root {
 	/* startje */
 	--color-text:rgb(0, 0, 0);
-	--color-background:rgb(255, 255, 255);
+	--color-background:rgb(255, 255, 255);		
+
 }
+
 @media (prefers-color-scheme: dark) {
 	:root {
 		--color-text:rgb(255, 255, 255);
 		--color-background:rgb(0, 0, 0);
 	}
-  }
+}
 
+ @media (prefers-color-sceme: light) {
+	:root { --color-text:rgb(0, 0, 0);
+			--color-background:rgb(255, 255, 255);
+
+	}
+ }
 /**********/
 /* Header */
 /**********/
@@ -65,9 +73,9 @@ header a {
 }
 
 header img:first-of-type {
-	float: right;
-    transition: 1s;display: block;
-
+    transition: 1s;
+	display: block;
+	margin-right: 1em;
 }
 
 header img{
@@ -75,6 +83,7 @@ header img{
 	width: 2em;
 	height: 2em;
 	margin-bottom: 1em;
+	margin-top: 0.5em;
 
 }
 
@@ -105,12 +114,20 @@ header img:hover {
   /* Main */
   /**********/
   
+html{
+	background-color: var(--color-background);
+	color: var(--color-text);
+
+}
+
+
 video {
 	width: 22.5em;
 	height: 12em;
 }
 
 main h1 {
+	color: var(--color-background);
 	color: var(--color-text);
 	text-align: center;
 	text-transform: uppercase;
@@ -290,10 +307,11 @@ main img:nth-of-type(2){
 
   main section:nth-of-type(6) img {
 	width: 22.5em;
-	height: 9em;
+	height: 18em;
 	padding-left: 0;
   }
 
+  
 
   main section:nth-of-type(3) h2:nth-of-type(2){
 	padding-left: .4em;
@@ -348,7 +366,7 @@ main img:nth-of-type(2){
  
 main section:nth-of-type(1) button.button1 {
 	left: 18em ;
-    top: 43em ;
+    top: 40em ;
 }
 
 main section:nth-of-type(2) button:nth-of-type(1).arrow1 {
@@ -365,7 +383,7 @@ main section:nth-of-type(3) button:nth-of-type(1).arrow2 {
     padding: 0.5em 0.5em 0.5em 0.5em ;
     position: absolute ;
     left: 25em ;
-    top: 50em;
+    top: 51em;
 	font-size: 13.3px ;
 	color: black ;
 }
@@ -376,7 +394,7 @@ main section:nth-of-type(3) button:nth-of-type(2).arrow3 {
     padding: 0.5em 0.5em 0.5em 0.5em ;
     position: absolute ;
     left: 23em ;
-    top: 50em ;
+    top: 51em ;
     border-radius: 25px ;
     opacity: 0.5 ;
 	font-size: 13.3px ;
@@ -389,7 +407,7 @@ main section:nth-of-type(5) button.arrow4 {
     padding: 0.5em 0.5em 0.5em 0.5em ;
     position: absolute ;
     left: 25em ;
-    top: 82em ;
+    top: 85em ;
     border-radius: 25px ;
 	font-size: 13.3px ;
 	color: black ;
@@ -401,7 +419,7 @@ main section:nth-of-type(5) button.arrow5 {
     padding: 0.5em 0.5em 0.5em 0.5em ;
     position: absolute ;
     left: 23em ;
-    top: 82em ;
+    top: 85em ;
     border-radius: 25px ;
     opacity: 0.5 ;
 	font-size: 13.3px ;
