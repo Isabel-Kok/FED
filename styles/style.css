@@ -16,7 +16,8 @@ button, summary {
 :root {
 	/* startje */
 	--color-text:rgb(0, 0, 0);
-	--color-background:rgb(255, 255, 255);		
+	--color-background:rgb(255, 255, 255);	
+	--color-button: rgb(0, 0, 0);	
 
 }
 
@@ -30,6 +31,7 @@ button, summary {
  @media (prefers-color-sceme: light) {
 	:root { --color-text:rgb(0, 0, 0);
 			--color-background:rgb(255, 255, 255);
+			--color-button: rgb(0, 0, 0);	
 
 	}
  }
@@ -186,7 +188,7 @@ main section:nth-of-type(2) button:nth-of-type(1) {
 	padding: 0.5em 0.5em 0.5em 0.5em;
 	position: absolute;
 	left: 25em;
-	top: 41em;
+	top: 40em;
 	border-radius: 10px;
 
 }
@@ -197,7 +199,7 @@ main section:nth-of-type(2) button:nth-of-type(2) {
 	padding: 0.5em 0.5em 0.5em 0.5em;
 	position: absolute;
 	left: 23em;
-	top: 41em;
+	top: 40em;
 	border-radius: 25px;
 	opacity: 0.5;
 }
