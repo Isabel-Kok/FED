@@ -19,7 +19,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   Isabel 
 
   #### Je startniveau:
-  Blauw/ rood
+  Blauw
 
   #### Je focus:
   service plain 
@@ -119,7 +119,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   hier dit ging goed & dit was lastig 
   - hoe ga ik er een video in krijgen
   - slider maken
-  - 
+  - het was weer even inkomen dus even tutorials kijken en weer opzoeken hoe alles ook al weer ging maar daarna ging het wat beter.
 
 
   ### Agenda voor meeting
@@ -154,25 +154,20 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   - het was lastig om de video er in te krijgen
   - had ook een fout gemaakt was sections vergeten
   - dus kon alles weer opnieuw positioneren maar dat is gelukt
+  - classes gebruiken voor positioneren van tweede pagina
 
 
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-  | student 1      | student 2          | student 3    | student 4        |
-  | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
-
+  Deze meeting was met iedereen tegelijkertijd vragen stellen en de student assistentes konden je helpen. We kregen het beoordelings forumulier en die moesten we invullen. Zo konden we zien hoe ver we al waren. 
 
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
-- ...
+  - ik moet nog goed werken aan het toegankelijk maken
+  - goed opweg 
+  - menu en de twee pagina's koppen moet nog gebeuren
 
 </details>
 
@@ -190,8 +185,12 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   #### Screenreader
   Hier korte omschrijving (met indien nodig afbeeldingen)
-
+   - Op de Nike site is de tab niet heel handig nog want hij gaat eerst alle opties op je computer na en daarna pas op de site.
+  - De screenreader is nog niet helemaal geschikt op mijn website want hij leest wel welke objecten er zijn maar hij leest niet alles op de site het kan bete door aan te geven welke 
+  
   Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
+  - Ik denk dat het aan de instellingen ligt en anders aanpassen dat hij van links naar rechts automatische leest op een site en dat dus door middel van gebruik tab
+  - bij elke foto en gedeelte op de site een uitgeschreven uitleg wat het is en wat het doet
 
 
   #### Muis en Toetsenbord 
@@ -202,12 +201,21 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   #### Motoriek (shocks, elastiekjes)
   Hier korte omschrijving (met indien nodig afbeeldingen)
+    - Als je spasme hebt dan kan moeilijker gebruik maken van een telefoon want het is moeilijker om het goed vast te houden. Ook is het moeilijker om buttons aan te raken want je beweegt constant. 
+    - Ballonnen hooghouden 
+    - Het is heel lastig om op de pagina te navigeren als je ook bezig bent met het hooghouden van een ballon.
+    - Als je wilt navigeren door de pagina moetje pressies werken en dat is lastig want je let op de ballon.
+- Vingers vast 
+    - Als je vingers vast zitten aan elkaar dan kan je minder goed navigeren omdat je een grotere vinger hebt en je kan minder precies werken.
+    - Je kan wel door de pagina navigeren alleen kost het meer moeite om het in een keer goed aan te klikken.
 
   Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
-
+    - misschien zorgen voor voice control of een andere soort muis/ toetsenbord ?
 
   #### Visueel (brillen, contrast, kleurenblind, dark/light). 
   Hier korte omschrijving (met indien nodig afbeeldingen)
+    - Er is slecht zicht door de brillen kleine letterts kun je niet lezen. 
+    - Je moet heel erg focussen op de onderdelen die je wilt waarnemen dan zorgt de Grotte voor beperking als het Klien is kan je het namelijk niet lezen.
 
   Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
 
