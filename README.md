@@ -232,25 +232,30 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   ### Stand van zaken
   hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
-
+  - het grote gedeelte van de site staat
+  - de puntjes die nog op de i moeten zijn:
+    - Dark light mode
+    - states
+    - formulier net verwerken
+    - goed toegankelijk maken
 
   ### Agenda voor meeting
   samen met je groepje opstellen
-
-  | student 1      | student 2          | student 3    | student 4        |
-  | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
-
+  - we hebben deze meeting weer met de gehele klas gedaan zo kon iedereen vragen stellen aan de student assistenen en we kregen feedback van de docent. Zo weet ik nu nog beter wat ik nog moet doen voor mijn beoordeling. 
 
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
+  - Video is gelukt
+  - Fixed is gelukt
+  - States gelukt
+
+  - Form nog mooi laten tonen
+  - Dark light mode nog goed verwerken
+  - Nog kijken naar toegankelijkheid
+  - Valideren voor einde
+  - tab nav
+  - bronnenlijkst
 
 </details>
 
@@ -290,8 +295,9 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg).
 
-  1. bron 1
-  2. bron 2
-  3. ...
+  1. Java script met hulp van Eva maar als het goed is snap ik hem wel, dat is het Menu dat in en uit klapt.
+  2. Dlo sommetje 13 voor slider https://codepen.io/shooft/live/VwXXNea 
+  3. https://www.w3schools.com/html/html_forms.asp voor het form zelf gekeken naar welke onderdelen ik wou in mijn form
+  4. NIKE zelf voor alle foto's
 
 </details>

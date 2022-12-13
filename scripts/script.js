@@ -15,4 +15,3 @@ function sluitmenu(){
 hamburgeropen.addEventListener('click', openmenu);
 hamburgersluit.addEventListener('click', sluitmenu);
 
-console.log(hamburgeropen)
