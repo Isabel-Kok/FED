@@ -40,11 +40,11 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   #### Screenshot(s) van de eerste pagina (small screen): 
   hier de naam van de pagina  
-  <img src="readme-images/Nike-home.jpg" width="375px" alt="NIke home page">
+  <img src="readme-images/homebegin.png" width="375px" alt="NIke home page">
 
   #### Screenshot(s) van de tweede pagina (small screen):
   hier de naam van de pagina  
-  <img src="readme-images/Nike-home.jpg" width="375px" alt="dames afdeling nike">
+  <img src="readme-images/damesbegin.png" width="375px" alt="dames afdeling nike">
  
 </details>
 
@@ -283,7 +283,6 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   Korte omschrijving met plaatjes
   Het was heel lastig om me tweede pagina vorm te geven als eerst want ik wist niet dat je class mocht gebruiken. Dus toen moest ik alles om gooien. Ik had ook wat moeite met het maken van het inklap menu maar daar heb ik hulp bij gevraagd. 
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="bummer">
 </details>
 
 
