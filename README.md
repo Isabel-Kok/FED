@@ -255,7 +255,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   - Nog kijken naar toegankelijkheid
   - Valideren voor einde
   - tab nav
-  - bronnenlijkst
+  - bronnenlijst
 
 </details>
 
@@ -269,17 +269,19 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor eindgesprek</summary>
 
   ### Je uitkomst - karakteristiek screenshots:
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="uitomst opdracht 1">
+  <img src="readme-images/homeeinde.png" width="375px" alt="uitomst opdracht 1">
 
 
   ### Dit ging goed/Heb ik geleerd: 
   Korte omschrijving met plaatjes
+  Dit was wel een leuke uitdaging, toen ik eerst hoorde wat we moesten gaan doen was ik best wel bang omdat ik nog niet zo goed ben in coderen. Maar toch vond ik het wel een leuke uitdaging want ik wil het graag beter kunnen. Toen heb ik gekozen voor een site die ik ook wel eens gebruik NIKE. Dit vind ik een leuke site en daar kan ik wel lang mee bezig zijn. Ik heb geleerd om een menu te maken wat in en uit klapt, dit heb ik wel geleerd met hulp van de student assisten. Ook heb ik wat nieuws geleerd hoe je dark en light modes kan toepassen. Ook heb ik een nieuwe tool geleerd van :nth-of-type() dit heeft me heel veel geholpen want eerst wist ik dit niet en nu kan ik veel makkelijker elementen aanspreken. 
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="top">
+  <img src="readme-images/dameseinde.png" width="375px" alt="top">
 
 
   ### Dit was lastig/Is niet gelukt:
   Korte omschrijving met plaatjes
+  Het was heel lastig om me tweede pagina vorm te geven als eerst want ik wist niet dat je class mocht gebruiken. Dus toen moest ik alles om gooien. Ik had ook wat moeite met het maken van het inklap menu maar daar heb ik hulp bij gevraagd. 
 
   <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="bummer">
 </details>
@@ -299,5 +301,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   2. Dlo sommetje 13 voor slider https://codepen.io/shooft/live/VwXXNea 
   3. https://www.w3schools.com/html/html_forms.asp voor het form zelf gekeken naar welke onderdelen ik wou in mijn form
   4. NIKE zelf voor alle foto's
+  5. https://whitep4nth3r.com/blog/quick-light-dark-mode-css/ dit is een site waar ik heb gelezen hoe ik dark mode moest doen.
+  
 
 </details>
